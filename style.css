@@ -176,6 +176,18 @@ details summary {
     top: 360px;
     right: 61px;
 }
+#circular-nav nav a:nth-child(11) {
+    top: 360px;
+    right: 61px;
+}
+#circular-nav nav a:nth-child(12) {
+    top: 360px;
+    right: 61px;
+}
+#circular-nav nav a:nth-child(13) {
+    top: 360px;
+    right: 61px;
+}
 #circular-nav img#logo {
     /* height: 250px; */
     width: 250px;
