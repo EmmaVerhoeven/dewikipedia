@@ -132,9 +132,10 @@ details summary {
     position: absolute;
     width: 100px;
     padding: 5px;
+    border-radius: 3px;
 }
 #circular-nav nav a:hover {
-    background-color: #ececec;
+    background-color: #83838324;
 }
 #circular-nav img#logo {
     /* height: 250px; */
@@ -147,3 +148,46 @@ details summary {
 .layer {
     margin-left: 10px;
 }
+
+
+/* Spotlight */
+button#spotlight-button {
+    cursor: pointer;
+}
+.spotlight::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    animation: spotlight 1s ease-in-out forwards;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    filter: blur(20px);
+    animation-delay: .1s;
+}
+
+@keyframes spotlight {
+    0% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: rgba(248, 247, 224, 0.3);
+    }
+}
+
+.darken {
+    animation: darken .5s ease-in-out forwards;
+}
+
+@keyframes darken {
+    0% {
+        background-color: #fff;
+    }
+    100% {
+        background-color: #000;
+    }
+}
+  
+  
