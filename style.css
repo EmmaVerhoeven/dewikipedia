@@ -44,13 +44,7 @@ h2 {
 h4 {
   margin: 0 20px;
 }
-ul {
-}
-ul li {
-}
 
-aside {
-}
 aside img {
   width: 100%;
 }
@@ -115,7 +109,7 @@ article figure figcaption {
 }
 .left {
   float: left;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 .right {
   float: right;
