@@ -55,6 +55,11 @@ aside h1 {
   color: blue;
 }
 
+#disclaimer {
+  font-size: 10px;
+  line-height: 1;
+}
+
 #content {
   padding: 20px;
   border: 1px solid #a7d7f9;
